@@ -40,7 +40,7 @@
      return result;
  }
 var AfficherExtensionString = function (texte) {
-  var result = texte.substr(15,17);
+  var result = texte.split('.').pop();
     return result;
 }
 var NombreEspaceString = function (texte) {
